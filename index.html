@@ -1,0 +1,911 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://www.sjsu.edu/css/sjsu3.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.sjsu.edu/css/print3.css" type="text/css" media="print" />
+
+<script language="JavaScript">
+<!--
+function SymError()
+{
+  	return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  	return (new Object());
+}
+
+window.open = SymWinOpen;
+//-->
+</script>
+
+<script language="Javascript" type="text/javascript" src="http://www.sjsu.edu/js/bragging2.js"></script>
+
+<title>Prof. Mak: CMPE 131 Software Engineering</title>
+</head>
+
+<body>
+
+<!-- start header -->
+<h1 class="hidden">San Jose State University : Site Name</h1>
+<h1 class="hidden">Navigation</h1>
+<div id="wrapper_header">
+	<!-- start banner -->
+	<div id="banner">
+		<!--<div id="banner" style=" background-image: url(pics/your_banner.jpg);">-->
+		<a href="#maincontent"><img src="http://www.sjsu.edu/pics/pixel.gif" width="10" height="1" border="0" alt="Skip to main content" /></a><br />
+	</div>
+</div>
+<!-- end header -->
+
+<!-- start main content -->
+<h1 class="hidden">Main Content</h1>
+<a name="maincontent"></a>
+<div id="one_column_wrapper">
+	<div id="wrapper_banner_expand">
+		<table cellspacing="10" cellpadding="0" border="0">
+    		<tr>
+    			<td>
+    				<img src="../images/RonMissionControlJPL.jpg" 
+    				 border="0"  
+    				 alt="Working in Mars Mission Control, JPL"/>
+    			</td>
+    			<td rowspan="2">
+    				<h1 align="center">
+    					Ronald Mak
+    				</h1>
+    				
+    				<p align="center">
+    					<strong>
+    						Department of Computer Engineering<br>
+    						Spring Semester 2017
+    					</strong>
+    				</p>
+    				<table cellspacing="2" cellpadding="2" border="0">
+    					<tr>
+    						<td><strong>Office hours: </strong></td>
+    						<td>Th: 2:30-4:30 PM</td>
+    					</tr>
+    					<tr>
+    						<td><strong>Office location: </strong></td>
+    						<td>ENG 250</td>
+    					</tr>
+    					<tr>
+    						<td><strong>E-mail: </strong></td>
+    						<td><a href="mailto:ron.mak@sjsu.edu">ron.mak@sjsu.edu</a></td>
+    					</tr>
+    				</table>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td align="center">
+    				<font size="-3">
+    					Mission Control, Jet Propulsion Laboratory (JPL)<br>
+    					NASA Mars Exploration Rover Mission
+    				</font>
+    			</td>
+    		</tr>
+		</table>
+  	</div>
+	
+	<form action="">
+    	<input type="button" value="HOME" 
+    	       onclick="window.location='http://www.cs.sjsu.edu/~mak/'"/>
+	</form>
+	
+  	<div id="wrapper_content_home">
+		
+		<h1>CMPE/SE 131 Software Engineering</h1><br>
+		
+		<h4>
+			Section 3: TuTh 9:00 - 10:15 AM, room ENG 337<br>
+		</h4>
+		
+		<p>
+			<ul>
+			    <li><a href="CMPE131Mak-GreenSheet.pdf"><strong>Green sheet</strong></a></li>
+				<!--li><strong>Green sheet: </strong>Under construction.</li-->
+				<li><a href="#prerequisites"><strong>Prerequisites</strong></a></li>
+				<li><a href="#books"><strong>Required books</strong></a></li>
+			</ul>
+		</p>
+		
+		<!--br>
+		
+		<p>
+			<h3>Project teams</h3><br>
+			
+			<table cellspacing="0" cellpadding="2" border="1"-->
+				<!--tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">CMPE 131-01</font>
+					</td>
+				</tr-->	
+				<!--tr>								
+    				<th>Team</th>
+    				<th>Product</th>		
+    				<th>Documents</th>	
+				</tr>	
+				<tr>
+					<td>
+						<strong>AFK</strong>
+					</td>
+					<td>
+						Chore Helper
+					</td>
+					<td>
+						<a href="projects/01/brochure/afk_4096231_44988109_brochure_chorehelper-1.pdf" target="_blank">brochure</a>
+						<a href="projects/01/concept/afk_4096231_44988222_TEAMAFK_Presentation.pdf" target="_blank">concept</a>
+						<a href="projects/01/design/afk_4096231_45311587_The%20Design%20of%20Chore-Helper.pdf" target="_blank">design</a>
+						<a href="projects/01/review/afk_4096231_45469919_Code%20review.rar" target="_blank">review</a>
+					</td>
+				</tr>		
+			</table>
+		</p-->
+		
+		<br>
+		
+		<p>
+			<h3>Assignments</h3><br>
+
+			<table cellspacing="0" cellpadding="2" border="1">
+			    <tr>
+    				<th>#</th>
+    				<th>Date</th>
+    				<th>Due</th>
+    				<th>Assignment</th>		
+				</tr>
+				<tr>
+					<td valign="top">1</td>
+					<td valign="top">Feb 2</td>
+					<td valign="top">Feb 10</td>
+					<td>
+						<a href="assignments/1/Assignment1.pdf">
+							First draft with Rails
+						</a>
+					</td>
+				</tr>
+				
+				<!--
+				
+				<tr>
+					<td valign="top">2</td>
+					<td valign="top">Sep 15</td>
+					<td valign="top">Sep 23</td>
+					<td>
+						<a href="assignments/2/Assignment2.pdf" target="_blank">
+							Functional Specification
+						</a>
+						<br><br>
+						<a href="assignments/2/UseCaseForm.docx" target="_blank">
+							Use case description form
+						</a><br>
+						<a href="assignments/2/FormalReportRubrics.pdf"  target="_blank">
+							Formal report rubrics
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">3</td>
+					<td valign="top">Sep 20</td>
+					<td valign="top">Oct 4</td>
+					<td>
+						<a href="assignments/3/Assignment3.pdf" target="_blank">
+							Conceptual design and oral presentation
+						</a>
+						<br><br>
+						<a href="assignments/3/FormalReportRubrics.pdf" target="_blank">
+							Formal report rubrics
+						</a><br>
+						<a href="assignments/3/PowerPointRubrics.pdf" target="_blank">
+							PowerPoint rubrics
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">4</td>
+					<td valign="top">Oct 6</td>
+					<td valign="top">Oct 21</td>
+					<td>
+						<a href="assignments/4/Assignment4.pdf" target="_blank">
+							Model-view-controller architecture and data models
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">5</td>
+					<td valign="top">Oct 27</td>
+					<td valign="top">Nov 4</td>
+					<td>
+						<a href="assignments/5/Assignment5.pdf" target="_blank">
+							Project schedule (Gantt chart)
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">6</td>
+					<td valign="top">Nov 3</td>
+					<td valign="top">Nov 11</td>
+					<td>
+						<a href="assignments/6/Assignment6.pdf" target="_blank">
+							Test cases
+						</a>
+					</td>
+				</tr>
+				
+				-->
+				
+			</table>
+		</p-->
+		
+		<!--br>
+		
+		<p>
+			<h3>Exams</h3><br>
+
+			<table cellspacing="0" cellpadding="2" border="1">
+			    <tr>
+    				<th></th>
+    				<th>Date</th>
+    				<th>Solutions</th>
+				</tr>
+				<tr>
+					<td valign="top">Midterm</td>
+					<td>
+						<a href="exams/MidtermSpring2016.pdf">
+							Mar 17
+						</a>
+					</td>
+					<td>
+						<a href="exams/MidtermSpring2016Solutions.pdf">
+    						solutions
+						</a>
+					</td>
+				</tr>
+			</table>
+		</p-->
+		
+		<br>
+		
+		<p>
+			<h3>Lectures</h3><br>
+			
+			<table cellspacing="0" cellpadding="2" border="1">
+			    <tr>
+    				<th>Date</th>
+    				<th>Content</th>		
+				</tr>
+				<tr>
+					<td valign="top">Jan 26</td>
+					<td>
+						<a href="lectures/CMPE131-170126.pptx">Slides:</a>
+						Goals of the course; what is software engineering; 
+						programming in the small and large;
+						complexity and change; the five C's; method, methodology, 
+						process; team member roles; class projects; project teams; 
+						postmortem report; grading; web application architecture; 
+						static and dynamic web pages; Rails application architecture
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Jan 31</td>
+					<td>
+						<a href="lectures/CMPE131-170131.pptx">Slides:</a>
+                        Ruby interpreter IRB; variables; types: numbers, strings,
+                        symbols, arrays, hashes, booleans; conditional assignment;
+                        constants; conditional statements; iteration; methods;
+                        classes; getters and setters; inheritance; batch programs;
+                        simple I/O
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Feb 2</td>
+					<td>
+						<a href="lectures/CMPE131-170202.pptx">Slides:</a>
+                        Full stack framework; Assignment #1; Rails mantra; 
+                        model-view-controller (MVC); fast start; Rails example; 
+                        Rails directory structure; Rails commands; database 
+                        migrations; scaffolding code; SQLite; object-relational 
+                        mapping (ORM); Rails console; create, query, update, 
+                        delete database records; database schema
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Feb 7</td>
+					<td>
+						<a href="lectures/CMPE131-170207.pptx">Slides:</a>
+                        Add a table column; data validation; table associations;
+                        comments table;  controllers; REST; routing; controller 
+                        actions; redirect vs. render; embedded Ruby file (.erb); 
+                        response formats; flash messages; comments controller
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Feb 9</td>
+					<td>
+						<a href="lectures/CMPE131-170209.pptx">Slides:</a>
+                        Database actions and HTTP verbs; default RESTful actions;
+                        route prefix; path and UTL helper functions; views; 
+                        embedded Ruby; output tags; control flow tags; helpers; 
+                        index page generation; layouts; partials; displaying
+                        comments; forms; Post form; form errors; comment form
+					</td>
+				</tr>
+				
+				<!--
+				
+				<tr>
+					<td valign="top">Sep 13</td>
+					<td>
+						<a href="lectures/CMPE131-160913.pptx">Slides:</a>
+                        Version control system: local, centralized, and
+                        distributed; Git: file differences vs. snapshots,
+                        local and remote operations and repositories, three
+                        file states; GitHub: personal account, team repository,
+                        clone local repository; Git: local changes, already
+                        have local files, push and pull; GitHub repository 
+                        statistics; GUI-based Git interface; deployment to Heroku
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Sep 15</td>
+					<td>
+						<a href="lectures/CMPE131-160915.pptx">Slides:</a>
+						Project phases; waterfall model; agile software 
+						development; requirements elicitation; bridging the gap;
+						functional and nonfunctional requirements; what 
+						requirements must have; strong statements; how to get 
+						requirements; use cases; UML use case diagram; use case
+						description; ATM example functional specification; 
+						Assignment #2
+						<br><br>
+						<a href="assignments/2/UseCaseForm.docx">
+    						Use case description form
+    				    </a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Sep 20</td>
+					<td>
+						<a href="lectures/CMPE131-160920.pptx">Slides:</a>
+						Conceptual design; example conceptual design presentation;
+						Assignment #3; design video
+						<br><br>
+						<a href="lectures/prototype/index.html" target="_blank">
+    						Prototype example
+    				    </a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Sep 22</td>
+					<td>
+						<a href="lectures/CMPE131-160922.pptx">Slides:</a>
+						Analysis; models; MVC model, view, and controller
+						objects; bank ATM example; object model associations; 
+						aggregations and compositions; generalization; attributes; 
+						dynamic model; UML sequence diagram; UML statechart diagram;
+						system design; designing a compiler; software architecture; 
+						partitioning; coupling; framework classes; cohesion; 
+						services
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Sep 27</td>
+					<td>
+						Oral conceptual design reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Sep 29</td>
+					<td>
+						Oral conceptual design reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 4</td>
+					<td>
+						<a href="lectures/CMPE131-161004.pptx">Slides:</a>
+						Layering; data independence; repository issues; database
+						system architecture; steps to develop a database; database
+						requirements; data modeling: conceptual, logical, physical;
+						entities and attributes; conceptual model example; ER 
+						diagram; relationships; cardinality; example ER diagrams;
+						relationships: 1:1, 1:M, M:N, exact cardinalities, 
+						attributes
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 6</td>
+					<td>
+						<a href="lectures/CMPE131-161006.pptx">Slides:</a>
+						Relationships: 1:1, 1:M, M:N, exact cardinalities, 
+						attributes; logical data model; relational tables;
+						primary key; mapping entities; entity integrity constraint;
+						foreign keys; mapping relationships:  1:1, 1:M, M:N;
+						school database example; normalization: first and second
+						normal forms; Assignment #4
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 11</td>
+					<td>
+						<a href="lectures/CMPE131-161011.pptx">Slides:</a>
+						SQL; query examples; joins; record insert, update,
+						delete; create and drop a database; create a table;
+						school example; database connection pool; data access
+						layer; review for the midterm
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 13</td>
+					<td>
+						Midterm exam
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 18</td>
+					<td>
+						<a href="lectures/CMPE131-161018.pptx">Slides:</a>
+						Midterm solutions; bug tracking; Bugzilla; bug lifecycle; 
+						managing expectations; estimates, targets, and commitments;
+						good estimates; time unit inflation; estimation techniques;
+						project schedules: Gantt chart, PERT chart, resources chart
+						<br><br>
+						<a href="lectures/CMPE131MidtermFall2016-solutiuons.pdf">
+    						Midterm solutions
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 20</td>
+					<td>
+						<a href="lectures/CMPE131-161020.pptx">Slides:</a>
+                        Project team design reviews; "Sins of Software Estimation";
+                        work breakdown structure; project schedule; Gantt chart;
+                        Gantt chart demo; critical path; PERT chart
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 25</td>
+					<td>
+						Oral application design reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Oct 27</td>
+					<td>
+						Oral application design reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 1</td>
+					<td>
+						<a href="lectures/CMPE131-161101.pptx">Slides:</a>
+                        Project cartoon; one month to go; cost of correcting 
+                        defects; make small mistakes early; software V&amp;V; 
+                        software testing; software reliability; testing: mindset,
+                        who does it, when, different types; unit testing; testing
+                        framework; Rails support for testing; integration testing;
+                        stress testing; regression testing
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 3</td>
+					<td>
+						<a href="lectures/CMPE131-161103.pptx">Slides:</a>
+                        Profiling; usability; <em>Don't Make Me Think</em>; read
+                        vs. scan a web page; "satisfice"; conventions, visual
+                        hierarchies; usability testing the Apple Newton; beta
+                        testing the NASA Mars rover mission; system testing; 
+                        acceptance testing; when to stop testing; test plan;
+                        example functional test case; Assignment #6; test-driven
+                        development (TDD); logging; Rails support for logging
+                        and debugging
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 8</td>
+					<td>
+						<a href="lectures/CMPE131-161108.pptx">Slides:</a>
+                        Code reviews; formal code review; what to review; what to
+                        ask; why do code reviews; benefits; resistance; pros and
+                        cons; continuous code reviews; productive reviews; what 
+                        to look for; software metrics; good metrics; how to use; 
+                        process metrics; project metrics: objective and subjective; 
+                        metric normalization: size-oriented and function point
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 10</td>
+					<td>
+						<a href="lectures/CMPE131-161110.pptx">Slides:</a>
+						Project scheduling triangle; project failures: causes, 
+						signs, and phases; Denver International Airport's automated 
+						baggage-handling system; how to spot impending doom; 
+						when to kill a project; software engineering code; 
+						whistle-blowing; speaking out
+					</td>
+				</tr>				
+				<tr>
+					<td valign="top">Nov 15</td>
+					<td>
+						Oral code reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 17</td>
+					<td>
+						Oral code reviews
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Nov 22</td>
+					<td>
+						<a href="lectures/CMPE131-161122.pptx">Slides:</a>
+						Risk management; personnel management; NASA project do's
+						and don'ts; Extreme Programming: dealing with risk, five
+						values, basic principles, best practices, manager's job, 
+						implementation barriers
+					</td>
+				</tr>				
+				<tr>
+					<td valign="top">Nov 29</td>
+					<td>
+						<a href="lectures/CMPE131-161129.pptx">Slides:</a>
+						Rational Unified Process (RUP); essential principles; 
+						key modeling elements: roles, activities, artifacts, and
+						workflows; disciplines; phases: inception, elaboration,
+						construction, and transition; cyberethics: four time
+						periods; what is morality? what is ethics? what is a
+						profession? who is a professional? special moral
+						responsibilities; codes of ethics and conduct; 
+						professional responsibility; causality vs. intent;
+						moral responsibility vs. legal liability vs. accountability;
+						important ethical issues; USS Vincennes
+					</td>
+				</tr>				
+				<tr>
+					<td valign="top">Dec 1</td>
+					<td>
+						<a href="lectures/CMPE131-161201.pptx">Slides:</a>
+						Review for the final
+					</td>
+				</tr>	
+				<tr>
+					<td valign="top">May 10</td>
+					<td>
+						Product demos
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">May 12</td>
+					<td>
+						Product demos
+						<br><br>
+						<a href="lectures/CS160-160512.pptx">Slides:</a>
+						Review for the final
+					</td>
+				</tr>	
+				
+				-->
+				
+			</table>
+		</p>
+		
+		<br>
+		
+		<p>
+			<h3>Goals</h3><br>
+
+		    <strong>First goal:</strong> You'll learn the general concepts of 
+			software engineering and relevant topics of the software development 
+			process within the context of a hands-on team project. Understand the
+			additional challenges of <em>programming-in-the-large</em> over 
+			<em>programming-in-the-small</em>. 
+		</p>
+		
+		<p>
+		    <ul>
+				<li>
+				    <strong>Software process:</strong> Reason about and apply 
+					the entire software development process. Create a 
+					software project schedule and use project scheduling like 
+					Microsoft Project. Use version control tools like Git.
+				</li>
+				<li>
+					<strong>Requirements engineering:</strong> Solicit, 
+					elaborate, and validate software product specifications 
+					and generate meaningful use cases.
+				</li>
+				<li>
+					<strong>Software design:</strong> Understand what software 
+					design architectures are suitable for various software 
+					projects. Apply appropriate software designs to a team 
+					project. Explain and defend design decisions. Use 
+					appropriate software design tools.
+				</li>
+				<li>
+					<strong>Testing and validation:</strong> Understand the 
+					software validation process and use issue 
+					tracking tools. Create and execute test plans.
+				</li>
+		    </ul>
+		</p>
+		
+		<p>
+			<strong>Second goal:</strong> So that you can immediately apply
+			software engineering concepts, you'll learn to work on a small team 
+			to build and deploy a web application using the full-stack 
+			<strong>Ruby on Rails</strong> framework, which supports important 
+			client-server concepts:
+			
+			<ul>
+				<li>Model-view-controller (MVC) architecture</li>				
+				<li>Representational State Transfer (REST) architecture</li>
+				<li>Object-relational mapping (ORM) and the active records design pattern</li>
+			</ul>
+		</p>
+		
+		<p>
+		During the semester, each project team will
+		
+		<ul>
+			<li>
+				Develop the client, server, and back-end 
+				<strong>code</strong> for its web application
+			</li>
+			<li>
+				Write <strong>reports</strong>: Requirements
+				Specification, Functional Specification, Design Document, 
+				Test Plan, Project Schedule
+			</li>
+			<li>
+				Make <strong>oral presentations</strong>: Product Pitch,
+				Design Review, Code Review, Product Demo
+			</li>
+		</ul>
+		</p>
+		
+		<p>
+			<strong>These are important real-world job skills for the
+			professional software developer!</strong>
+			<em>This is a challenging course that will demand much of your time 
+			and effort throughout the semester.</em>
+		</p>
+		
+		<br>
+		
+		<p>
+			<h3 id="prerequisites">Prerequisites</h3><br>
+    	
+        	<div style="float: right; background-color: #FFE6CC; padding-left: 1em; padding-right: 1em; text-align: center">
+            	<p>
+    				<strong>
+    					Department policy is to	enforce<br>
+    					all course prerequisites strictly<br>
+    				</strong>
+            	</p>
+        	</div>
+			
+			<table cellspacing="0" cellpadding="2" border="1">
+    			<!--
+				<tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">CS major</font>
+					</td>
+				</tr>									
+				<tr>
+					<td>CS 100W</td>
+					<td>Technical writing</td>
+					<td><em>grade C or better</em></td>
+				</tr>
+				<tr>
+					<td>CS 146</td>
+					<td>Data structures and algorithms</td>
+					<td><em>grade C- or better</em></td>
+				</tr>
+				<tr>
+					<td>CS 151</td>
+					<td>Object-oriented design</td>
+					<td><em>grade C- or better</em></td>
+				</tr>
+				-->
+				<tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">CMPE major</font>
+					</td>
+				</tr>									
+				<tr>
+					<td>CMPE 126</td>
+					<td>Algorithms and data structure design</td>
+					<td><em>grade C- or better</em></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">SE major</font>
+					</td>
+				</tr>									
+				<tr>
+					<td>CS 46B</td>
+					<td>Introduction to data structures</td>
+					<td><em>grade C- or better</em></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">ISE major</font>
+					</td>
+				</tr>									
+				<tr>
+					<td>CMPE 30</td>
+					<td>Programming Concepts and Methodology</td>
+					<td><em>grade C- or better</em></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center" bgcolor="#c0c0c0">
+						<font size="+1">Allowed Declared Majors: Any Engineering</font>
+					</td>
+				</tr>									
+			</table>
+		</p>
+		
+		<br>
+		
+		<p>
+			<h3 id="books">Required books</h3><br>
+			
+			<table cellspacing="0" cellpadding="2" border="1">
+				<tr>
+					<td>
+						<strong>Rails Crash Course: A No-Nonsense Guide to Rails Development</strong><br>
+						Anthony Lewis<br>
+						No Starch Press, 2015<br>
+						ISBN: 978-1593275723<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://goo.gl/uRdNhF">
+    						<strong>Ruby on Rails Quick Start Guide</strong>
+    				    </a>(Google doc)<br>
+						Melvin Ch'ng
+					</td>
+				</tr>
+			</table>
+		</p>
+		<br>
+		
+		<p>
+			<h3 id="books">Recommended books</h3><br>
+			
+			<table cellspacing="0" cellpadding="2" border="1">
+				<tr>
+					<td>
+						<strong>Ruby on Rails Tutorial, 4th edition</strong><br>
+						Michael Hartl<br>
+						Addison-Wesley Professional, 2016<br>
+						ISBN: 978-0134598628<br>
+						<a href="https://www.railstutorial.org/book/" target="_blank">
+						    Free online edition
+						</a>
+						<br>
+						Install onto your local machine instead of the<br>
+						"cloud integrated development environment".
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Beginning Software Engineering</strong><br>
+						Rod Stephens<br>
+						Wrox/Wiley, 2015<br>
+						ISBN: 978-1118969144<br>
+					</td>
+				</tr>
+			</table>
+		</p>
+		
+		<br>
+		
+		<p>
+    		<h3>Software to install</h3><br>
+    		
+    		<p>
+        		As described in Rails Crash Course, you will need to download and 
+        		install on your Mac, Windows, or Linux platform the following 
+        		software: Ruby, Rails, Git, Heroku.
+    		</p>
+    		
+    		<p>
+        		<a href="RoR_Rev1.0.3_26012017.pdf" target="_blank">
+        		    New instructions 
+        		</a> to install on Windows.
+    		</p>
+    		
+    		<p>
+        		Download and install either of the following:
+        		
+        		<ul>
+            		<li>
+            		    <a href = "http://sqlitestudio.pl/?act=download" target="_blank">
+                            SQLite Studio
+            		    </a>
+                    </li>
+            		<li>
+            		    <a href = "https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/" target="_blank">
+                            SQLite Manager (Firefox add-on)
+            		    </a>
+                    </li>
+        		</ul>
+    		</p>
+    		
+    		<p>
+        		Also download and install:
+    		   		
+    			<ul>
+        			<li>
+        			    <a href="http://www.ganttproject.biz" target="_blank">
+        			        GanttProject
+        			    </a>
+        			</li>
+    			</ul>
+    		</p>
+    		
+    		<p>
+        		There may be other software packages announced during the semester.
+    		</p>
+		</p>
+  	</div>
+  	<!-- end column one -->
+</div>
+<!-- end main content -->
+
+<!-- start footer -->
+<div id="footer">
+	<div id="footerlogo">
+		<a href="http://www.sjsu.edu/">
+			<img alt="SJSU Logo" src="http://www.sjsu.edu/pics/logo_horz_webglobal.gif" border="0" />
+		</a> 
+	</div>
+	
+	<div id="footeraddress"> San Jos&eacute; State University - Home of the Spartans<br />
+		One Washington Square -
+		San Jos&eacute;, California USA, 95192<br />
+		408-924-1000
+	</div>
+</div>
+<!-- end footer -->
+
+</body>
+</html>
+
+<script language="JavaScript">
+<!--
+var SymRealOnLoad;
+var SymRealOnUnload;
+
+function SymOnUnload()
+{
+  	window.open = SymWinOpen;
+  	if(SymRealOnUnload != null)
+		SymRealOnUnload();
+}
+
+function SymOnLoad()
+{
+  	if(SymRealOnLoad != null)
+    	SymRealOnLoad();
+  	window.open = SymRealWinOpen;
+  	SymRealOnUnload = window.onunload;
+  	window.onunload = SymOnUnload;
+}
+
+SymRealOnLoad = window.onload;
+window.onload = SymOnLoad;
+//-->
+</script>
+
